@@ -1,0 +1,85 @@
+<!DOCTYPEHTML>
+<html>
+<head>
+<style>
+body {
+background-image: url('tło.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+</style>
+	<script src="Imie.js">
+	</script>
+<meta charset="UTF-8">
+</head>
+<body>
+<!--audio-->
+	<audio id="jojo.mp3" loop preload autoplay>
+	<source src="jojo.mp3" type="audio/mp3">
+	</audio>
+<!--audio-->
+<input type="button" value="Wł.Muzyke" onClick="Zagraj()">
+<input type="button" value="Wył.Muzyke" onClick="Zatrzymaj()">
+<br><br>
+<font size="20" face="arial black">
+<div style="background-color: #FF6633">
+<center><h1>Angielski</h1></center>
+</font>
+</div>
+<br><br><br><br><br><br><br><br>
+	<center>
+<font size="20" face="arial">
+<div style="background-color: #FF9933">
+	<!--Pytanie1-->
+<h3><b>Co po angielsku znaczy zwrot</b> <br> "What time is it?"'</h3>
+<br>
+<input type="button" value="Który mamy rok?" onClick="alert('Źle')">
+<input type="button" value="Kim ty jesteś?" onClick="alert('Źle')">
+<br>
+<input type="button" value="Która jest godzina?" onClick="alert('Dobra odpowiedź')+wynik++">
+<input type="button" value="Kupić pieczywo?" onClick="alert('Źle')">
+</div>
+<br><!--Pytanie2-->
+	<div style="background-color: #FF6600">
+<h3><b>Co po angielsku znaczy zwrot</b> <br> "What is your name?"</h3>
+<br>
+<input type="button" value="Jak masz na nazwisko?" onClick="alert('Źle')">
+<input type="button" value="Kim jest twoja mama?" onClick="alert('Źle')">
+<br>
+<input type="button" value="Ile masz lat?" onClick="alert('Źle')">
+<input type="button" value="Jak masz na imie?" onClick="alert('Dobra odpowiedź')+wynik++">
+	</div>
+<br><!--Pytanie3-->
+	<div style="background-color: #FF9933">
+<h3><b>Jak przetłumaczysz słowo:</b> <br>"Social Distancing"<h3>
+<br>
+<input type="button" value="Dystans Społeczny" onClick="alert('Dobra odpowiedź')+wynik++">
+<input type="button" value="Dystans Socjanly" onClick="alert('Źle')">
+<br>
+<input type="button" value="Być Zdystansowanym" onClick="alert('Źle')">
+<input type="button" value="Mieć dystans do ludzi" onClick="alert('Źle')">
+	</div>
+<br><!--Pytanie4-->
+<div style="background-color: #FF6600">
+<h3><b>Jak przetłumaczysz słowo:</b> <br>"Programista"<h3>
+<br>
+<input type="button" value="Programming" onClick="alert('Źle')">
+<input type="button" value="Program" onClick="alert('Źle')">
+<br>
+<input type="button" value="Programmer" onClick="alert('Dobra odpowiedź')+wynik++">
+<input type="button" value="IT specialist" onClick="alert('Źle')">
+	</div>
+<br><br><br> <!--wynik-->
+<div style="background-color: #FF9933">
+<input type="button" value="Wynik" onClick="alert('Twój wynik=&nbsp'+licz())">
+	</div>
+</font>
+	</center>
+	<a href="Kategorie1.html"><image src="cofka.png"></a>
+<script>
+var wynik=0;
+var x = document.getElementById("jojo.mp3");
+</script>
+</body>
+</html>

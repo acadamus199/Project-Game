@@ -1,0 +1,75 @@
+<!DOCTYPEHTML>
+<html>
+<head>
+<style>
+body {
+background-image: url('tło.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+</style>
+	<script src="Imie.js">
+	</script>
+<meta charset="UTF-8">
+</head>
+<body>
+<!--audio-->
+	<audio id="jojo.mp3" loop preload autoplay>
+	<source src="jojo.mp3" type="audio/mp3">
+	</audio>
+<!--audio-->
+<input type="button" value="Wł.Muzyke" onClick="Zagraj()">
+<input type="button" value="Wył.Muzyke" onClick="Zatrzymaj()">
+<br><br>
+<font size="20" face="arial black">
+<div style="background-color: #FF6633">
+<center><h1>Matematyka</h1></center>
+</font>
+</div>
+<br><br><br><br><br><br><br><br>
+	<center>
+<font size="20" face="arial">
+<div style="background-color: #FF9933">
+	<!--Pytanie1-->
+<i><h3>Pytanie 1 (Iloczyn):</h3></i>
+<br>
+<input type="button" value="Pokaż" onClick="Iloczyn()">
+</div>
+<div style="background-color: #FF6633">
+	<!--Pytanie2-->
+<i><h3>Pytanie 2 (Suma):</h3></i>
+<br>
+<input type="button" value="Pokaż" onClick="Suma()">
+</div>
+<div style="background-color: #FF9933">
+	<!--Pytanie3-->
+<i><h3>Pytanie 3 (Różnica):</h3></i>
+<br>
+<input type="button" value="Pokaż" onClick="Różnica()">
+</div>
+<div style="background-color: #FF6633">
+	<!--Pytanie4-->
+<i><h3>Pytanie 4 (Reszta z dzielenia):</h3></i>
+<br>
+<input type="button" value="Pokaż" onClick="Reszta()">
+</div>
+<div style="background-color: #FF9933">
+	<!--Pytanie5-->
+<i><h3>Pytanie 5 (Potęga):</h3></i>
+<br>
+<input type="button" value="Pokaż" onClick="Potęga()">
+</div>
+<br><br><br> <!--wynik-->
+<div style="background-color: #FF6633">
+<input type="button" value="Wynik" onClick="alert('Twój wynik=&nbsp'+licz())">
+	</div>
+</font>
+	</center>
+<a href="Kategorie1.html"><image src="cofka.png"></a>
+<script>
+var wynik=0;
+var x = document.getElementById("jojo.mp3");
+</script>
+</body>
+</html>

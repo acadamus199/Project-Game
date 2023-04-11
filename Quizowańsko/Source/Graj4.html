@@ -1,0 +1,95 @@
+<!DOCTYPEHTML>
+<html>
+<head>
+<style>
+body {
+background-image: url('tło.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+</style>
+	<script src="Imie.js">
+	</script>
+<meta charset="UTF-8">
+</head>
+<body>
+<!--audio-->
+	<audio id="jojo.mp3" loop preload autoplay>
+	<source src="jojo.mp3" type="audio/mp3">
+	</audio>
+<!--audio-->
+<input type="button" value="Wł.Muzyke" onClick="Zagraj()">
+<input type="button" value="Wył.Muzyke" onClick="Zatrzymaj()">
+<br><br>
+<font size="20" face="arial black">
+<div style="background-color: #FF6633">
+<center><h1>Biologia</h1></center>
+</font>
+</div>
+<br><br><br><br><br><br><br><br>
+	<center>
+<font size="20" face="arial">
+<div style="background-color: #FF9933">
+	<!--Pytanie1-->
+<h3><b>Czym jest padalec?</b></h3>
+<br>
+<input type="button" value="Wąż" onClick="alert('Źle')">
+<input type="button" value="Mątwa słodkowodna" onClick="alert('Źle')">
+<br>
+<input type="button" value="Beznoga jaszczurka" onClick="alert('Dobra odpowiedź')+wynik++">
+<input type="button" value="Larwa" onClick="alert('Źle')">
+</div>
+<div style="background-color: #FF6633">
+	<!--Pytanie2-->
+<h3><b>Wskaż zdanie prawdziwe:</b></h3>
+<br>
+<input type="button" value="Człowiek pochodzi od małpy" onClick="alert('Źle')">
+<input type="button" value="Ewolucja współcześnie nie przebiega" onClick="alert('Źle')">
+<br>
+<input type="button" value="Ewolucja zawsze prowadzi do bardziej złożonych gatunków" onClick="alert('Źle')">
+<input type="button" value="Ewolucja może mieszać gatunki" onClick="alert('Dobra odpowiedź')+wynik++">
+</div>
+<div style="background-color: #FF9933">
+	<!--Pytanie3-->
+<h3><b>Mitochondria odpowiadają za:</b></h3>
+<br>
+<input type="button" value="Transport DNA" onClick="alert('Źle')">
+<input type="button" value="Ochronę przed wirusami" onClick="alert('Źle')">
+<br>
+<input type="button" value="Wytwarzanie energii" onClick="alert('Dobra odpowiedź')+wynik++">
+<input type="button" value="Utrzymywanie sztywności błony komórkowej" onClick="alert('Źle')">
+</div>
+<div style="background-color: #FF6633">
+<!--Pytanie4-->
+<h3><b>Rolą móżdżku jest:</b></h3>
+<br>
+<input type="button" value="Utrzymywanie równowagi i koordynacja ruchów" onClick="alert('Dobra odpowiedź')+wynik++">
+<input type="button" value="Przetwarzanie impulsów wzrokowych" onClick="alert('Źle')">
+<br>
+<input type="button" value="Utrzymywanie pamięci długotrwałej" onClick="alert('Źle')">
+<input type="button" value="Wytwarzanie impulsów koordynacyjnych" onClick="alert('Źle')">
+</div>
+<div style="background-color: #FF9933">
+<!--Pytanie5-->
+<h3><b>Zasady tworzące DNA:</b></h3>
+<br>
+<input type="button" value="Adezyna, Baranina, Cytoza, Trypofan" onClick="alert('Źle')">
+<input type="button" value="Adenina, Guanina, Cytozyna, Tymina" onClick="alert('Dobra odpowiedź')+wynik++">
+<br>
+<input type="button" value="Alenina, Guanina, Cytozyna, Tymianek" onClick="alert('Źle')">
+<input type="button" value="DNA tworzą aminokwasy" onClick="alert('Źle')">
+</div>
+<br><br><br> <!--wynik-->
+<div style="background-color: #FF6633">
+<input type="button" value="Wynik" onClick="alert('Twój wynik=&nbsp'+licz())">
+	</div>
+</font>
+	</center>
+<a href="Kategorie1.html"><image src="cofka.png"></a>
+<script>
+var wynik=0;
+var x = document.getElementById("jojo.mp3");
+</script>
+</body>
+</html>

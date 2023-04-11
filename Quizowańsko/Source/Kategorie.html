@@ -1,0 +1,13 @@
+var x = Math.floor(Math.random(1)*100+1);
+var y = Math.floor(Math.random(1)*100+1);
+document.write("<b>Oto pierwsze pytanie:</b><br> Jaki jest iloczyn liczb&nbsp"+x+"&nbspi&nbsp"+y+"?");
+function odp()
+	{
+var a=prompt("Odpowiedź brzmi:");
+var wynik = x*y;
+if(a==wynik)
+{
+alert('GitGut');
+}
+return a;
+	}
